@@ -1,86 +1,175 @@
-* {
+*{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.fondo{
+    
+    background-image:url(https://i.pinimg.com/736x/d9/ee/65/d9ee653104b36e0b632dc0633d709798.jpg);
+    border-end-end-radius: 70px;
+    border-end-start-radius: 70px;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Arial, sans-serif;
-    background-color: #006734;
+    position: relative;
+    min-height: 100vh;
+    transition: 0.5s;
+    padding-bottom: 15rem;
+    font-family: "Poppins", sans-serif;
+    background-image: url(https://i.pinimg.com/564x/d7/d3/d6/d7d3d6ea66387d782f97816b3d3cb137.jpg);
+    
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Arial, sans-serif;
-   : space-between;
-    width background-color: #006734;
-}
-
-.title {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: aliceblue;
-    text-align: center;
-    margin-top: 50px;
-    width: 1100px;
-    height: 40px;
-    background-color: #99E89D;
-    border-radius: 50%;
-}
-
-.index {
-    width: 170px;
-    height: 130px;
-    background-color: #73C884;
-    border-radius: 5%;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    margin-left: 40px;
+footer{
+    width: 100%;
     position: absolute;
-    top: 2em;
-    font-style:italic;
+    bottom: 0;
+    padding: 1rem 4%;
+    background-color:rgb(122, 165, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-right-radius: 50px;
+    border-start-start-radius: 50px;
 }
 
-.content {
+.logos{
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.iconos{
     display: flex;
-    align-items: right;
-    margin-top: 500x;
-    margin-left: 275px;
-    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.social{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 3px solid #f2f2f2;
+    background-image: url(https://www.pngkey.com/png/full/911-9119774_facebook-icon-logo-facebook-blanco-png.png);
+    
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+    transition: .6s;
+
+}
+
+.social:hover{
+    background-color: #121212;
+    filter: invert(1);
+    
+}
+
+.social:nth-of-type(2){
+    background-image: url(https://jrodp.files.wordpress.com/2014/04/logo-ipn-blanco.png);
+    image-resolution: 569 1300;
+}
+
+.social:nth-of-type(3){
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png);
+}
+    
+
+.menu {
+    display: flex;
+    height: 110vh;
+    align-items: center;
+    font-size: 35px;;
+    justify-content: center;
+}
+
+.titulo{
+    color: rgb(6, 73, 32);
+    text-decoration: none;
+    left: 0;
+    top: 0;
+    position: absolute;
+    padding-left: 7rem;
+    z-index: 1;
+    transition: .6s;
+    
+}
+
+.titulo:hover{
+    color: rgba(247, 247, 247, 0.699);
+}
+
+.enlaces {
+    color: rgb(94, 129, 160);
+    top: 0;
+    align-items: center;
+    right: 0;
+    position: absolute;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    justify-content: right;
+    gap: 3rem;
+    list-style: none;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-right: 7rem;
+}
+
+nav a {
+    
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: all ease 0.3s;
+
+}
+
+nav a:hover {
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    background-color: #ffffff;
+    
+}
+
+.sub{
+    justify-items: center;
+    color: rgba(17, 75, 6, 0.741);
+    text-decoration: none;
+    position: relative;
+}
+
+.orden{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgg{
+    padding: 20px 20px;
+    border-radius: 15px;
+    background-color:rgb(177, 240, 192);
+    width: 380px;
+    height: 320px;
+    margin:40px 50px;
+    
+}
+
+.content1{
+    position: relative;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.76);
     width: 60%;
-    padding: 0;
-    background-color: #26884F;
-    border-radius: 0%;
-    width: 800px;
-    height: 170px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:40px 50px;
+    padding: 15px 15px;
+    border-radius: 15px;
+    background-color:#26884F
 }
-.image1 {
-    margin-left: 40px;
-    max-width: 100%;
-    height: auto;
-}
-.bottom {
-    display: flex;
-    align-items: right;
-    margin-left: 40px;
-    margin-top: 60px ;
-    text-align: justify;
-    width: 90%;
-    padding: 0;
-    background-color: #26884F;
-    border-radius: 0%;
-    width: 1060px;
-    height: 160px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.image2 {
-    margin-right: 40px;
-    max-width: 100%;
-    height: auto;
-}
-
