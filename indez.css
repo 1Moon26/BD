@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    transition: 0.5s;
+    padding-bottom: 15rem;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(33, 73, 33);
+    
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem 4%;
+    background-color:rgb(122, 165, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-right-radius: 50px;
+    border-start-start-radius: 50px;
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.social{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 3px solid #f2f2f2;
+    background-image: url(https://www.pngkey.com/png/full/911-9119774_facebook-icon-logo-facebook-blanco-png.png);
+    
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+    transition: .6s;
+
+}
+
+.social:hover{
+    background-color: #121212;
+    filter: invert(1);
+    
+}
+
+.social:nth-of-type(2){
+    background-image: url(https://jrodp.files.wordpress.com/2014/04/logo-ipn-blanco.png);
+    image-resolution: 569 1300;
+}
+
+.social:nth-of-type(3){
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png);
+}
+    
+
+.menu {
+    display: flex;
+    height: 110vh;
+    align-items: center;
+    font-size: 20px;;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.titulo{
+    color: rgb(237, 238, 237);
+    text-decoration: none;
+    left: 0;
+    top: 0;
+    position: absolute;
+    padding-left: 7rem;
+    z-index: 1;
+    transition: .6s;
+    
+}
+
+.titulo:hover{
+    color: rgba(166, 253, 199, 0.699);
+}
+
+.enlaces {
+    color: rgb(94, 129, 160);
+    top: 0;
+    align-items: center;
+    right: 0;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+ 
+}
+
+.sub{
+    justify-items: center;
+    color: rgba(255, 255, 255, 0.741);
+    text-decoration: none;
+    position: relative;
+}
+
+.imgg{
+    padding: 20px 20px;
+    border-radius: 15px;
+    background-color:rgb(177, 240, 192);
+    width: 380px;
+    height: 320px;
+    margin:40px 50px;
+    
+}
+.content1{
+    position: relative;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.76);
+    width: 60%;
+    margin:40px 50px;
+    padding: 15px 15px;
+    border-radius: 15px;
+    background-color:#26884F
+}
+
+.orden{
+    display: flex;
+    justify-content: space-between;
+}

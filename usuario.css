@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(https://m.media-amazon.com/images/I/41EQqngAnWL._AC_UF1000,1000_QL80_.jpg);
+    background-size: cover;
+    color: #006734;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.userlogin {
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px solid #9AE89E;
+    margin-top: 10%;
+}
+
+.title{
+    font-size: 28px;
+    font-style: italic;
+    color: #4DA769;
+    float: center;
+}
+
+.Passwordlogin {
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px solid #9AE89E;
+    margin-top: 10%;
+}
+
+
+.userid{
+   margin-right: 5px;
+   padding-left: 5px;
+
+   height: 25px;
+   width: 300px;
+   border: solid 2px #73C884;
+   border-radius: 10px;
+}
